@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Restify — Landing Page</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container row">
+      <div class="logo">Restify</div>
+      <nav class="nav" id="nav">
+        <a href="#features">Funcionalidades</a>
+        <a href="#about">Sobre</a>
+        <a href="#contact" class="btn">Começar</a>
+      </nav>
+      <button class="hamb" aria-label="Abrir menu" onclick="document.getElementById('nav').classList.toggle('open')">☰</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Sincronize reservas sem esforço</h1>
+      <p>Automação simples para restaurantes. Menos cliques, mais mesas ocupadas.</p>
+      <a href="#contact" class="btn big">Quero experimentar</a>
+      <img src="assets/hero.jpg" alt="Gestão de reservas" class="hero-img"/>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="container grid-3">
+      <div class="card">
+        <h3>Rápido</h3>
+        <p>Configuração em minutos. Esqueça planilhas e copiar/colar.</p>
+      </div>
+      <div class="card">
+        <h3>Seguro</h3>
+        <p>Integrações com APIs e permissões controladas.</p>
+      </div>
+      <div class="card">
+        <h3>Escalável</h3>
+        <p>De um restaurante a uma rede — sem dores.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container row">
+      <div>
+        <h2>Feito para quem opera de verdade</h2>
+        <p>Uma landing simples para mostrar design responsivo, tipografia, grid e foco em conversão.</p>
+      </div>
+      <ul class="ticks">
+        <li>Layout responsivo (Mobile First)</li>
+        <li>Semântica e acessibilidade</li>
+        <li>CSS puro, leve e fácil de manter</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="cta" id="contact">
+    <div class="container">
+      <h2>Pronto para começar?</h2>
+      <p>Deixa o teu e-mail e recebe novidades.</p>
+      <form class="row">
+        <input type="email" placeholder="teuemail@exemplo.com" required/>
+        <button class="btn">Quero receber</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container row">
+      <small>© 2025 Restify</small>
+      <a href="#">Política de Privacidade</a>
+    </div>
+  </footer>
+</body>
+</html>
